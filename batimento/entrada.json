@@ -1,0 +1,10 @@
+{
+  "grupo": "entrada",
+  "data": "2026-11-01",
+  "primeira_execucao_do_dia": "2026-11-01T00:31:38Z",
+  "fontes": {
+    "cn_nia_240h": "ok",
+    "cn_consulado_la_avisos": "ok",
+    "ph_etravel_faq": "ok"
+  }
+}
