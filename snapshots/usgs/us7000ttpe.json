@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000ttpe",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttpe",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M5.5 5 km ESE of Asahi, Japan",
+    "alerta": "Green",
+    "magnitude": 5.5,
+    "paises": "Japan",
+    "de": "2026-10-28",
+    "ate": "2026-10-28",
+    "lon": 140.7,
+    "lat": 35.7
+  },
+  "texto": "",
+  "coletado_em": "2026-11-01T01:14:42Z",
+  "hash": "8f8cde2064c989ba432f8c432a9b4c6cb701a99a0b22ade53a9ac511fc824309"
+}

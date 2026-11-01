@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us6000u4ty",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ty",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M5.9 218 km ENE of Nagqu, China",
+    "alerta": "Green",
+    "magnitude": 5.9,
+    "paises": "China",
+    "de": "2026-10-25",
+    "ate": "2026-10-25",
+    "lon": 94.1,
+    "lat": 32.5
+  },
+  "texto": "",
+  "coletado_em": "2026-11-01T01:14:42Z",
+  "hash": "1afff2c712199a14bbea0514e399b195228614126b86184ac5d86b3e4cf7439d"
+}

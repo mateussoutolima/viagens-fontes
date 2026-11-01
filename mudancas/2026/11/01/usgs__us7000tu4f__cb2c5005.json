@@ -1,0 +1,11 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000tu4f",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu4f",
+  "tipo": "nova",
+  "campos": {},
+  "trechos": [],
+  "hash_antes": null,
+  "hash_depois": "cb2c500586ffdd1777da93fef51c9d29244f3e8db55ead35b40d86ac692b86e1",
+  "coletado_em": "2026-11-01T01:14:42Z"
+}

@@ -1,0 +1,11 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000tuku",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuku",
+  "tipo": "nova",
+  "campos": {},
+  "trechos": [],
+  "hash_antes": null,
+  "hash_depois": "081b0f7e807e5a70ba61d17b645d520c623709692172025ba77381cea33f52f4",
+  "coletado_em": "2026-11-01T01:14:42Z"
+}

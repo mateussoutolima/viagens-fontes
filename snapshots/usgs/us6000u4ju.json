@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us6000u4ju",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ju",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M5.7 205 km NW of Port-Olry, Vanuatu",
+    "alerta": "Green",
+    "magnitude": 5.7,
+    "paises": "Vanuatu",
+    "de": "2026-10-24",
+    "ate": "2026-10-24",
+    "lon": 165.6,
+    "lat": -13.9
+  },
+  "texto": "",
+  "coletado_em": "2026-11-01T01:14:42Z",
+  "hash": "88068fadccf75a2fc83a7dfe958bf5f2778abf4927a6150d11f4a4bc32753d39"
+}

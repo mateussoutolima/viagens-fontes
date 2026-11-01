@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us6000u4jb",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4jb",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M6.3 170 km NW of Port-Olry, Vanuatu",
+    "alerta": "Green",
+    "magnitude": 6.3,
+    "paises": "Vanuatu",
+    "de": "2026-10-24",
+    "ate": "2026-10-24",
+    "lon": 165.9,
+    "lat": -14
+  },
+  "texto": "",
+  "coletado_em": "2026-11-01T01:14:42Z",
+  "hash": "26b01e53a93a095578c95e25466ca01fe0dc9d4131d634534f8133a52c3c7f6c"
+}

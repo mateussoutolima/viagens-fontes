@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000ttw3",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttw3",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M5.8 110 km ENE of Barcelona, Philippines",
+    "alerta": "Green",
+    "magnitude": 5.8,
+    "paises": "Philippines",
+    "de": "2026-10-29",
+    "ate": "2026-10-29",
+    "lon": 127.4,
+    "lat": 8.4
+  },
+  "texto": "",
+  "coletado_em": "2026-11-01T01:14:42Z",
+  "hash": "304f3b3bb06288ac23fcf384eb696a93d439d6a0f4550a86d470860d77cb6733"
+}

@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us6000u4rf",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4rf",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M6.1 25 km ENE of Port-Olry, Vanuatu",
+    "alerta": "Green",
+    "magnitude": 6.1,
+    "paises": "Vanuatu",
+    "de": "2026-10-25",
+    "ate": "2026-10-25",
+    "lon": 167.3,
+    "lat": -15
+  },
+  "texto": "",
+  "coletado_em": "2026-11-01T01:14:42Z",
+  "hash": "8bba3a126f19af9f57f96b0b39ce5ee59276b0e64b6bc833b638e324f505ba8b"
+}

@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000ttua",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttua",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M5.7 271 km WSW of Tual, Indonesia",
+    "alerta": "Green",
+    "magnitude": 5.7,
+    "paises": "Indonesia",
+    "de": "2026-10-28",
+    "ate": "2026-10-28",
+    "lon": 130.4,
+    "lat": -6.3
+  },
+  "texto": "",
+  "coletado_em": "2026-11-01T01:14:42Z",
+  "hash": "1d6db83da3341977180886cce76e14f7de39d0266db23294e7af83270386e3be"
+}

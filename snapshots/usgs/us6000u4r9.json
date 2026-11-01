@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us6000u4r9",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4r9",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M6.5 Bonin Islands, Japan region",
+    "alerta": "Green",
+    "magnitude": 6.5,
+    "paises": "Japan region",
+    "de": "2026-10-25",
+    "ate": "2026-10-25",
+    "lon": 139.6,
+    "lat": 27.8
+  },
+  "texto": "",
+  "coletado_em": "2026-11-01T01:14:42Z",
+  "hash": "238d06610564b9f2073a02b962fa0cade722b589e4233cdb411920777f1b20cf"
+}

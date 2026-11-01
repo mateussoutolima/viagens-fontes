@@ -1,0 +1,12 @@
+{
+  "fonte": "ph_pagasa",
+  "chave": "ph_pagasa_boletim",
+  "pais": "PH",
+  "url": "https://www.pagasa.dost.gov.ph/tropical-cyclone/severe-weather-bulletin",
+  "tipo": "nova",
+  "campos": {},
+  "trechos": [],
+  "hash_antes": null,
+  "hash_depois": "683084d5ea98915c5174af16535139f214b4bb71d975f322cc6f13d793608977",
+  "coletado_em": "2026-11-01T01:14:42Z"
+}

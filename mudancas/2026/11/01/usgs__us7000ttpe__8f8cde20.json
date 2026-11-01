@@ -1,0 +1,11 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000ttpe",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttpe",
+  "tipo": "nova",
+  "campos": {},
+  "trechos": [],
+  "hash_antes": null,
+  "hash_depois": "8f8cde2064c989ba432f8c432a9b4c6cb701a99a0b22ade53a9ac511fc824309",
+  "coletado_em": "2026-11-01T01:14:42Z"
+}

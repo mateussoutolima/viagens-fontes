@@ -1,0 +1,11 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000ttua",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttua",
+  "tipo": "nova",
+  "campos": {},
+  "trechos": [],
+  "hash_antes": null,
+  "hash_depois": "1d6db83da3341977180886cce76e14f7de39d0266db23294e7af83270386e3be",
+  "coletado_em": "2026-11-01T01:14:42Z"
+}

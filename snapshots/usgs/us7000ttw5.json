@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000ttw5",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttw5",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M5.7 82 km NE of Kiunga, Papua New Guinea",
+    "alerta": "Green",
+    "magnitude": 5.7,
+    "paises": "Papua New Guinea",
+    "de": "2026-10-29",
+    "ate": "2026-10-29",
+    "lon": 141.9,
+    "lat": -5.7
+  },
+  "texto": "",
+  "coletado_em": "2026-11-01T01:14:42Z",
+  "hash": "69b10a62ef068725786798688cb1a8b0b177949696007f1caf90ade713b484a7"
+}

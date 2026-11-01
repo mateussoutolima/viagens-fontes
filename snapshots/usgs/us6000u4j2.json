@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us6000u4j2",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4j2",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M6.9 197 km WNW of Port-Olry, Vanuatu",
+    "alerta": "Green",
+    "magnitude": 6.9,
+    "paises": "Vanuatu",
+    "de": "2026-10-24",
+    "ate": "2026-10-24",
+    "lon": 165.5,
+    "lat": -14.1
+  },
+  "texto": "",
+  "coletado_em": "2026-11-01T01:14:42Z",
+  "hash": "09e6ff3c90bde3dbbc32d4b0cff3cba7b779503b9c9d32d8fed32b6fa02ead94"
+}

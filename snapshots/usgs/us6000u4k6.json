@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us6000u4k6",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4k6",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M5.8 182 km NW of Port-Olry, Vanuatu",
+    "alerta": "Green",
+    "magnitude": 5.8,
+    "paises": "Vanuatu",
+    "de": "2026-10-24",
+    "ate": "2026-10-24",
+    "lon": 165.7,
+    "lat": -14.1
+  },
+  "texto": "",
+  "coletado_em": "2026-11-01T01:14:42Z",
+  "hash": "b669c97e75c46eb6ee9893eb36f1b1a28d02cb7fc78ec217b6e01313b79715fc"
+}

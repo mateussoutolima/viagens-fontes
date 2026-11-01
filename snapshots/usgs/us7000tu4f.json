@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000tu4f",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu4f",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M6.2 43 km ESE of Port-Olry, Vanuatu",
+    "alerta": "Green",
+    "magnitude": 6.2,
+    "paises": "Vanuatu",
+    "de": "2026-10-29",
+    "ate": "2026-10-29",
+    "lon": 167.5,
+    "lat": -15.2
+  },
+  "texto": "",
+  "coletado_em": "2026-11-01T01:14:42Z",
+  "hash": "cb2c500586ffdd1777da93fef51c9d29244f3e8db55ead35b40d86ac692b86e1"
+}
