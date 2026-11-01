@@ -13,6 +13,35 @@ async function obter(http: HttpPort, url: string): Promise<string> {
 
 const somarDias = (iso: string, d: number) => new Date(Date.parse(iso) + d * 864e5).toISOString().slice(0, 10);
 
+type Anel = Array<[number, number]>;
+/**
+ * Zona de vento de 60 km/h do ciclone (Poly_Green da geometria do GDACS, sem os WindRadii por horário).
+ * Simplificada (≤ 150 vértices por anel, 0,1°) para o hash não mudar à toa. Falha → null (o app casa por país).
+ */
+export function zonaDeVento(geo: { features?: Array<{ geometry?: { type?: string; coordinates?: unknown }; properties?: Record<string, unknown> }> }): string | null {
+  const aneis: Anel[] = [];
+  for (const f of geo.features ?? []) {
+    const p = f.properties ?? {};
+    if (p.Class !== 'Poly_Green' || p.featuretype) continue;
+    const g = f.geometry;
+    const polys = g?.type === 'Polygon' ? [g.coordinates as Anel[]] : g?.type === 'MultiPolygon' ? (g.coordinates as Anel[][]) : [];
+    for (const poly of polys) if (poly?.[0]?.length >= 4) aneis.push(poly[0]);
+  }
+  if (!aneis.length) return null;
+  const r = (x: number) => Math.round(x * 10) / 10;
+  const simples = aneis.map(a => {
+    const passo = Math.max(1, Math.ceil(a.length / 150));
+    const out: Anel = [];
+    for (let i = 0; i < a.length; i += passo) {
+      const pt: [number, number] = [r(a[i][0]), r(a[i][1])];
+      const u = out[out.length - 1];
+      if (!u || u[0] !== pt[0] || u[1] !== pt[1]) out.push(pt);
+    }
+    return out;
+  }).filter(a => a.length >= 3);
+  return simples.length ? JSON.stringify(simples) : null;
+}
+
 export const gdacs: Fonte = {
   id: 'gdacs', nome: 'GDACS (ONU/Comissão Europeia)', licenca: 'GDACS: uso livre com atribuição', grupo: 'perigos',
   async coletar(http, agora) {
@@ -34,6 +63,7 @@ export const gdacs: Fonte = {
           de: String(p.fromdate ?? '').slice(0, 10) || null, ate: String(p.todate ?? '').slice(0, 10) || null,
           atual: p.iscurrent === 'true' || p.iscurrent === true,
           lon: Math.round(lon * 10) / 10, lat: Math.round(lat * 10) / 10,
+          ...(p.eventtype === 'TC' ? { zona60: await zonaDoCiclone(http, p) } : {}),
         },
         texto: '',
         coletado_em: agora,
@@ -42,6 +72,14 @@ export const gdacs: Fonte = {
     return out;
   },
 };
+
+async function zonaDoCiclone(http: HttpPort, p: { eventid?: unknown; episodeid?: unknown; url?: { geometry?: string } }): Promise<string | null> {
+  const url = p.url?.geometry ?? `https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=${p.eventid}&episodeid=${p.episodeid}`;
+  try {
+    const r = await http(url);
+    return r.status === 200 && r.texto.trim() ? zonaDeVento(JSON.parse(r.texto)) : null;
+  } catch { return null; }
+}
 
 /** Sismos do USGS (M ≥ 5,5 na caixa Ásia-Pacífico, últimos 10 dias). O PAGER dá o nível de impacto (green/yellow/orange/red). */
 export const usgs: Fonte = {

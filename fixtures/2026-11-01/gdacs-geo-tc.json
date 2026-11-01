@@ -1,0 +1,6 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[111.1,21.8]},"properties":{"eventtype":"TC","eventid":1,"Class":"Point_Centroid","polygonlabel":"Centroid"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[120.03,9.0],[127.04,9.0],[127.0,13.0],[120.0,13.0],[120.03,9.0]]]},"properties":{"eventtype":"TC","eventid":1,"Class":"Poly_Green","polygonlabel":"60 km/h","polygondate":"2025-09-24T12:00:00"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[122,10],[124,10],[124,12],[122,12],[122,10]]]},"properties":{"eventtype":"TC","eventid":1,"Class":"Poly_Orange","polygonlabel":"90 km/h"}},
+{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[108.5,22.0],[108.5,22.0],[108.5,22.0],[108.5,22.0]]]},"properties":{"eventtype":"TC","eventid":1,"Class":"Poly_Green","featuretype":"WindRadii","polygonlabel":"24/09 12:00"}}
+]}

@@ -135,3 +135,14 @@ test('privacidade: nada da viagem no repositório público', () => {
   for (const d of ['snapshots', 'catalogo', 'mudancas', 'estado', 'fontes'].filter(x => fs.existsSync(x)))
     for (const f of andar(d)) assert.ok(!proibido.test(fs.readFileSync(f, 'utf8')), f);
 });
+
+import { zonaDeVento } from '../fontes/adaptadores/outros.ts';
+test('GDACS T19: ciclone traz a zona de 60 km/h (sem os WindRadii); sem geometria → null', async () => {
+  const geo = JSON.parse(fs.readFileSync('fixtures/2026-11-01/gdacs-geo-tc.json', 'utf8'));
+  assert.equal(zonaDeVento(geo), '[[[120,9],[127,9],[127,13],[120,13],[120,9]]]');
+  assert.equal(zonaDeVento({ features: [] }), null);
+  const g = await gdacs.coletar(httpFixture({ geteventlist: 'gdacs.json' }), '2026-10-31T00:00:00Z');
+  const tc = g.find(e => e.campos.tipo === 'TC')!;
+  assert.equal(tc.campos.zona60, null, 'geometria fora do ar não derruba a coleta');
+  assert.ok(!('zona60' in g.find(e => e.campos.tipo !== 'TC')!.campos));
+});
