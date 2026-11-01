@@ -1,0 +1,27 @@
+name: geometria-gdacs
+on:
+  workflow_dispatch:
+    inputs:
+      eventos:
+        description: "Ciclones do GDACS, separados por espaço: TC-<eventid>:<episodeid>"
+        required: true
+permissions:
+  contents: read
+jobs:
+  geometria:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Baixar zonas de vento
+        env:
+          EVENTOS: ${{ inputs.eventos }}
+        run: node fontes/geometria.ts $EVENTOS > zonas.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: zonas
+          path: zonas.json
+          retention-days: 3
