@@ -10,11 +10,11 @@
     "paises": "India",
     "de": "2026-10-26",
     "ate": "2026-10-28",
-    "atual": true,
+    "atual": false,
     "lon": 81.8,
     "lat": 16.4
   },
   "texto": "",
-  "coletado_em": "2026-11-01T00:11:58Z",
-  "hash": "0d43d554fbda52b0c632ce6b934acc632a5608f9d87b2c38aa2112cb1c43d900"
+  "coletado_em": "2026-11-01T06:44:02Z",
+  "hash": "bbd225d59583b959dcf443aeaa3491e331f41bf73f2e98a672b8c8e400547ca8"
 }

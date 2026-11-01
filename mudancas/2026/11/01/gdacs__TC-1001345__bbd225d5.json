@@ -1,0 +1,16 @@
+{
+  "fonte": "gdacs",
+  "chave": "TC-1001345",
+  "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=10&eventtype=TC",
+  "tipo": "estrutural",
+  "campos": {
+    "atual": [
+      true,
+      false
+    ]
+  },
+  "trechos": [],
+  "hash_antes": "0d43d554fbda52b0c632ce6b934acc632a5608f9d87b2c38aa2112cb1c43d900",
+  "hash_depois": "bbd225d59583b959dcf443aeaa3491e331f41bf73f2e98a672b8c8e400547ca8",
+  "coletado_em": "2026-11-01T06:44:02Z"
+}
