@@ -1,0 +1,20 @@
+{
+  "fonte": "usgs",
+  "chave": "us6000u43g",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g",
+  "tipo": "estrutural",
+  "campos": {
+    "lat": [
+      32.4,
+      32.3
+    ],
+    "nome": [
+      "Sismo M7 191 km ENE of Nagqu, China",
+      "Sismo M7 189 km ENE of Nagqu, China"
+    ]
+  },
+  "trechos": [],
+  "hash_antes": "249d85db9a287c4b8ac1cd509f9bd6a0cc57f82bc3e9bb7ab73900b32cf8b14b",
+  "hash_depois": "fe358044fb6aad91b1474ce351e7f88eda2a418af4bf638f442dbf74c65b2378",
+  "coletado_em": "2026-11-01T19:06:02Z"
+}
