@@ -1,0 +1,15 @@
+{
+  "fonte": "ca_gac",
+  "chave": "JP",
+  "pais": "JP",
+  "url": "https://travel.gc.ca/destinations/japan",
+  "campos": {
+    "advisory_state": 0,
+    "regional": 0,
+    "aviso": 0,
+    "atualizado_em": "2026-10-26"
+  },
+  "texto": "Exercise normal security precautions\nRisk levels section – removed advisory to avoid non-essential travel to the Ryukyu Islands; Natural disasters and climate section – removed information on Typhoon Champi",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "d89e81bb0d443c182c54d4bbdd80588436b2a3583ddaf8be222da430c96cc842"
+}

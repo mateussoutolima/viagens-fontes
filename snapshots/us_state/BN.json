@@ -1,0 +1,13 @@
+{
+  "fonte": "us_state",
+  "chave": "BN",
+  "pais": "BN",
+  "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.brn.html",
+  "campos": {
+    "nivel": "Level 1",
+    "atualizado_em": "2026-05-13"
+  },
+  "texto": "Exercise normal precaution\nin Brunei .\nBrunei is generally a safe destination for travelers.\nBasic emergency medical care is available throughout Brunei. However, response times may be limited in rural areas. Review the Health section of the Travel Guidance on this page for more information.\nReview our travel guidance for Brunei to learn how to prepare for a safe trip.",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "f3c95ffb6f92850536b361a531e698fb09d4990f0305965ce88dac85223eaf6c"
+}

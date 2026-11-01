@@ -1,0 +1,13 @@
+{
+  "fonte": "us_state",
+  "chave": "VN",
+  "pais": "VN",
+  "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.vnm.html",
+  "campos": {
+    "nivel": "Level 1",
+    "atualizado_em": "2026-06-23"
+  },
+  "texto": "Exercise normal precaution\nin Vietnam .\nVietnam is generally a safe destination for travelers. Petty crime is common, especially in popular tourist locations. Stay aware of your surroundings.\nLandmines and unexploded ordnance exist in Vietnam. Areas of greatest risk are construction sites. Landmine risk is low in urban and populated areas, including tourist destinations. The locations of landmines and unexploded ordnance are often unmarked and difficult to recognize. Do not pick up or approach unknown metal objects in the ground.\nReview our Travel Guidance for Vietnam to learn how to prepare for a safe trip.",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "6a8ffb5dc00f92ca4f923332c4b27e4d854f83f148981d8a98c2ead1db29d339"
+}

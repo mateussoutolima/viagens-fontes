@@ -1,0 +1,15 @@
+{
+  "fonte": "ca_gac",
+  "chave": "AU",
+  "pais": "AU",
+  "url": "https://travel.gc.ca/destinations/australia",
+  "campos": {
+    "advisory_state": 0,
+    "regional": 0,
+    "aviso": 0,
+    "atualizado_em": "2026-10-29"
+  },
+  "texto": "Exercise normal security precautions\nNatural disasters and climate section – added information on El Niño",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "e14158c0a4c3de17ef003550119fec8a716889453c13fa4b606117032b77b12a"
+}

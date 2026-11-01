@@ -1,0 +1,13 @@
+{
+  "fonte": "us_state",
+  "chave": "AU",
+  "pais": "AU",
+  "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.aus.html",
+  "campos": {
+    "nivel": "Level 1",
+    "atualizado_em": "2026-08-17"
+  },
+  "texto": "Exercise normal precaution\nin Australia .\nAustralia is generally a safe destination for travelers.\nReview our Travel Guidance for Australia to learn how to prepare for a safe trip.",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "247dd4b37bd29604df458f7c593d66dc310e007115e20dd6b909e89ebe0f2716"
+}

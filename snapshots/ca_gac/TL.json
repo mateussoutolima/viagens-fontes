@@ -1,0 +1,15 @@
+{
+  "fonte": "ca_gac",
+  "chave": "TL",
+  "pais": "TL",
+  "url": "https://travel.gc.ca/destinations/timor-leste-east-timor",
+  "campos": {
+    "advisory_state": 1,
+    "regional": 0,
+    "aviso": 0,
+    "atualizado_em": "2026-10-13"
+  },
+  "texto": "Exercise a high degree of caution\nNatural disasters and climate section – added information on El Niño",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "383d0acfb526827542d6c7dc045109961285a9dff0d5f7480a4b9412a221ea5b"
+}

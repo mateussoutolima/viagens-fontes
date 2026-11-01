@@ -1,0 +1,13 @@
+{
+  "fonte": "us_state",
+  "chave": "TW",
+  "pais": "TW",
+  "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.twn.html",
+  "campos": {
+    "nivel": "Level 1",
+    "atualizado_em": "2025-11-24"
+  },
+  "texto": "Exercise normal precaution\nin Taiwan .\nThere is a risk of natural disasters in Taiwan, including earthquakes, tsunamis, typhoons, flooding, and extreme heat.",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "9207f63e087ee35c855fda6d1ac0d46103b88a9df2c19ebd6d42cb9d09f7b7a3"
+}

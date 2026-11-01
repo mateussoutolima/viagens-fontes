@@ -1,0 +1,13 @@
+{
+  "fonte": "us_state",
+  "chave": "TL",
+  "pais": "TL",
+  "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tls.html",
+  "campos": {
+    "nivel": "Level 2",
+    "atualizado_em": "2026-05-20"
+  },
+  "texto": "Exercise increased caution\nin Timor-Leste due to risk of unrest and crime . Read the entire Travel Advisory.\nPolice in Timor-Leste sometimes use force and tear gas against protestors.\nStone throwing attacks on vehicles can occur during gang conflicts and periods of unrest.\nSex-based violence and sexual harassment are common in Timor-Leste.",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "49f5249b35d453e08dccd7976d295aa1cbf112bdb4d0fb7d003a7454afc988d3"
+}

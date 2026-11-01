@@ -1,0 +1,13 @@
+{
+  "fonte": "us_state",
+  "chave": "MY",
+  "pais": "MY",
+  "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mys.html",
+  "campos": {
+    "nivel": "Level 1",
+    "atualizado_em": "2026-02-21"
+  },
+  "texto": "Exercise normal precaution\nin Malaysia . Some areas have increased risk . Read the entire Travel Advisory.\nMalaysia is generally a safe destination for travelers.\nExercise increased caution on islands and maritime areas off the coast of Eastern Sabah from Kudat in the north to Tawau in the south due to risk of kidnapping .",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "0748180266e8f4e0e3280ada3bed942d0d6a390c63babd24f95c0f8e182def7a"
+}

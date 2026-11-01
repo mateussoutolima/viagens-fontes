@@ -1,0 +1,15 @@
+{
+  "fonte": "ca_gac",
+  "chave": "TH",
+  "pais": "TH",
+  "url": "https://travel.gc.ca/destinations/thailand",
+  "campos": {
+    "advisory_state": 1,
+    "regional": 1,
+    "aviso": 0,
+    "atualizado_em": "2026-10-13"
+  },
+  "texto": "Exercise a high degree of caution (with regional advisories)\nNatural disasters and climate section – added information on El Niño",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "43044d3b12e4001b72e2a14f158038368a0a34de40c849bc47d99fdccca4250a"
+}

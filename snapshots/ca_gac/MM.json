@@ -1,0 +1,15 @@
+{
+  "fonte": "ca_gac",
+  "chave": "MM",
+  "pais": "MM",
+  "url": "https://travel.gc.ca/destinations/myanmar",
+  "campos": {
+    "advisory_state": 3,
+    "regional": 0,
+    "aviso": 1,
+    "atualizado_em": "2026-10-15"
+  },
+  "texto": "Avoid all travel\nNatural disasters and climate section – added information on El Niño",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "22991a8930c2d38d0eea9e5f75b25ad106acc5c703654b2ceed4d5f5129adde3"
+}

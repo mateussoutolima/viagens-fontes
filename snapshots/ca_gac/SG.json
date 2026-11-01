@@ -1,0 +1,15 @@
+{
+  "fonte": "ca_gac",
+  "chave": "SG",
+  "pais": "SG",
+  "url": "https://travel.gc.ca/destinations/singapore",
+  "campos": {
+    "advisory_state": 0,
+    "regional": 0,
+    "aviso": 0,
+    "atualizado_em": "2026-10-15"
+  },
+  "texto": "Exercise normal security precautions\nNatural disasters and climate section – added information on El Niño",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "adecb12a0d23637b2bda227963b8fb92ee6fcfb2469a2198306749643d9c6bd5"
+}

@@ -1,0 +1,13 @@
+{
+  "fonte": "us_state",
+  "chave": "NZ",
+  "pais": "NZ",
+  "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.nzl.html",
+  "campos": {
+    "nivel": "Level 1",
+    "atualizado_em": "2026-04-28"
+  },
+  "texto": "Exercise normal precaution\nin New Zealand .\nNew Zealand is generally a safe destination for travelers. Review our travel guidance for New Zealand to learn how to prepare for a safe trip.",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "852b03a2cde5518bf47a240824e63a1c1bd82a881c99b0a3b5faa085ae5312db"
+}

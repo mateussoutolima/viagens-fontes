@@ -1,0 +1,13 @@
+{
+  "fonte": "us_state",
+  "chave": "MN",
+  "pais": "MN",
+  "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mng.html",
+  "campos": {
+    "nivel": "Level 1",
+    "atualizado_em": "2026-07-28"
+  },
+  "texto": "Exercise normal precaution\nin Mongolia.\nMongolia is generally a safe destination for travelers.\nReview our Travel Guidance for Mongolia to learn how to prepare for a safe trip.",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "6c4498346707f7195e956200808538e7208ca51382edaf917cdd24d640141b61"
+}

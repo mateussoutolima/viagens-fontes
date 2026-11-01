@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cn_nia_240h",
+    "fonte": "cn_nia",
+    "pais": "CN",
+    "url": "https://en.nia.gov.cn/n147418/n147463/c183412/content.html",
+    "descricao": "NIA (China): política de trânsito sem visto de 24 h e 240 h",
+    "seletor": { "bloco": "zoom" }
+  },
+  {
+    "id": "cn_consulado_la_avisos",
+    "fonte": "cn_consulado",
+    "pais": "CN",
+    "url": "https://losangeles.china-consulate.gov.cn/eng/visa/Notice/",
+    "descricao": "Consulado da China em Los Angeles: lista de avisos de visto (prorrogação da isenção)",
+    "seletor": { "remover": ["view_dedault"], "de": "Consular Service > Notice", "ate": "推荐给朋友" }
+  },
+  {
+    "id": "ph_etravel_faq",
+    "fonte": "ph_etravel",
+    "pais": "PH",
+    "url": "https://www.etravel.gov.ph/frequently-asked-questions",
+    "descricao": "eTravel (Filipinas): perguntas frequentes (prazo de 72 h, gratuidade, quem precisa)",
+    "seletor": { "de": "Frequently Asked Questions", "ate": "Home Data Policy FAQs Contact Sign In" }
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "fonte": "ca_gac",
+  "chave": "MY",
+  "pais": "MY",
+  "url": "https://travel.gc.ca/destinations/malaysia",
+  "campos": {
+    "advisory_state": 0,
+    "regional": 1,
+    "aviso": 0,
+    "atualizado_em": "2026-10-09"
+  },
+  "texto": "Exercise normal security precautions (with regional advisories)\nNatural disasters and climate section – added information on El Niño",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "983a991eef6ba7b7ee772991377a0731210e02c58c95894bca90b592cda318c6"
+}

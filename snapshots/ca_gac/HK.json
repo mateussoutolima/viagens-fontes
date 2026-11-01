@@ -1,0 +1,15 @@
+{
+  "fonte": "ca_gac",
+  "chave": "HK",
+  "pais": "HK",
+  "url": "https://travel.gc.ca/destinations/hong-kong",
+  "campos": {
+    "advisory_state": 1,
+    "regional": 0,
+    "aviso": 0,
+    "atualizado_em": "2026-10-14"
+  },
+  "texto": "Exercise a high degree of caution\nNatural disasters and climate section – added information on El Niño",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "1be3f8e7eb56da275989974dff963103fdc388598f2a386e1a151beff99647e5"
+}

@@ -1,0 +1,15 @@
+{
+  "fonte": "ca_gac",
+  "chave": "MO",
+  "pais": "MO",
+  "url": "https://travel.gc.ca/destinations/macao",
+  "campos": {
+    "advisory_state": 1,
+    "regional": 0,
+    "aviso": 0,
+    "atualizado_em": "2026-10-09"
+  },
+  "texto": "Exercise a high degree of caution\nNatural disasters and climate section – added information on El Niño",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "ae48eb0a01ffcc6e53462ad0d8495b6b9473d07e6e643009941ae457f6558da7"
+}

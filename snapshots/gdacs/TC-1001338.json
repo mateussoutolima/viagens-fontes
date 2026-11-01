@@ -1,0 +1,20 @@
+{
+  "fonte": "gdacs",
+  "chave": "TC-1001338",
+  "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=46&eventtype=TC",
+  "campos": {
+    "tipo": "TC",
+    "nome": "CHAMPI-26",
+    "alerta": "Red",
+    "alerta_episodio": "Green",
+    "paises": "Philippines, Guam, Northern Mariana Islands, Japan, China, South Korea",
+    "de": "2026-10-14",
+    "ate": "2026-10-25",
+    "atual": false,
+    "lon": 127.4,
+    "lat": 31.2
+  },
+  "texto": "",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "bd0b814f08a018358c590ebe0c3e1a3995631e29d842ac37c1f2cdeef2296419"
+}

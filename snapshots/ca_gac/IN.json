@@ -1,0 +1,15 @@
+{
+  "fonte": "ca_gac",
+  "chave": "IN",
+  "pais": "IN",
+  "url": "https://travel.gc.ca/destinations/india",
+  "campos": {
+    "advisory_state": 1,
+    "regional": 1,
+    "aviso": 0,
+    "atualizado_em": "2026-10-30"
+  },
+  "texto": "Exercise a high degree of caution (with regional advisories)\nRisk level section – removed advisory to avoid non-essential travel to the Andhra Pradesh coast; Natural disasters and climate section – updated information on Cyclone Arnab",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "397c71311d8e6a761f7d559413260bc178f433d50e6accda5ee9df90d5c37b79"
+}

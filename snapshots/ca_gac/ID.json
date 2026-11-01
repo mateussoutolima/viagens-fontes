@@ -1,0 +1,15 @@
+{
+  "fonte": "ca_gac",
+  "chave": "ID",
+  "pais": "ID",
+  "url": "https://travel.gc.ca/destinations/indonesia",
+  "campos": {
+    "advisory_state": 1,
+    "regional": 1,
+    "aviso": 0,
+    "atualizado_em": "2026-10-27"
+  },
+  "texto": "Exercise a high degree of caution (with regional advisories)\nEditorial change",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "ec97ad771bb6e66a8849061103283ff65ccef8a839bef5c7484135d6932cd9ad"
+}

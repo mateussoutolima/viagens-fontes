@@ -1,0 +1,15 @@
+{
+  "fonte": "ca_gac",
+  "chave": "PG",
+  "pais": "PG",
+  "url": "https://travel.gc.ca/destinations/papua-new-guinea",
+  "campos": {
+    "advisory_state": 2,
+    "regional": 0,
+    "aviso": 1,
+    "atualizado_em": "2026-10-15"
+  },
+  "texto": "Avoid non-essential travel\nNatural disasters and climate section – added information on El Niño",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "dfc002c0f9bf97fa08a4a23b3cd5acad856e5eae267dc5176acc6f0ed71c0fbc"
+}

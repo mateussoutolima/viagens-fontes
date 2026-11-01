@@ -1,0 +1,13 @@
+{
+  "fonte": "us_state",
+  "chave": "JP",
+  "pais": "JP",
+  "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.jpn.html",
+  "campos": {
+    "nivel": "Level 1",
+    "atualizado_em": "2025-05-14"
+  },
+  "texto": "Exercise normal precaution\nin Japan.\nU.S. citizens should always exercise caution when traveling abroad. Use these general tips to stay safe.",
+  "coletado_em": "2026-11-01T00:11:58Z",
+  "hash": "7bee1c05db3406d60db2b9c86e0a270b84671ac4a249961ace19e1398208d8bb"
+}

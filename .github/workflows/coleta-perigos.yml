@@ -1,0 +1,32 @@
+name: coleta-perigos
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: coleta
+  cancel-in-progress: false
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Coletar (perigos)
+        run: node fontes/coletar.ts perigos
+      - name: Testar privacidade e núcleo
+        run: npm test
+      - name: Commit só se o hash mudou
+        run: |
+          git add -A snapshots mudancas estado
+          if git diff --cached --quiet; then echo "sem mudança: nada a commitar"; exit 0; fi
+          git config user.name "viagens-fontes[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "coleta perigos: $(git diff --cached --name-only | grep -c '^mudancas/') mudança(s)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done
+          exit 1

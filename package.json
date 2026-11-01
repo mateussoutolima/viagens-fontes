@@ -1,0 +1,11 @@
+{
+  "name": "viagens-fontes",
+  "private": true,
+  "type": "module",
+  "description": "Coleta pública de fontes oficiais (avisos de governo, perigos naturais, regras de entrada, câmbio) da Ásia-Pacífico, com snapshot e diff. Sem roteiro, sem dados pessoais.",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "test": "node --test testes/*.test.ts",
+    "coletar": "node fontes/coletar.ts"
+  }
+}
