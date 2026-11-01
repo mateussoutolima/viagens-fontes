@@ -107,6 +107,7 @@ test('coletar: segunda passada sem mudança não escreve nada; falha grava estad
   const http = httpFixture({ TravelAdvisories: 'us.json' });
   const r1 = await coletar({ raiz, grupo: 'todas', http, agora: '2026-11-01T00:00:00Z', fontes: [usState] });
   assert.equal(r1.fontes[0].mudancas, 22);
+  assert.ok(r1.arquivos.includes('batimento/todas.json'));
   const r2 = await coletar({ raiz, grupo: 'todas', http, agora: '2026-11-01T06:00:00Z', fontes: [usState] });
   assert.deepEqual(r2.arquivos, []);
   const quebrado = async (u: string) => ({ status: 500, texto: '', url: u });
@@ -115,7 +116,7 @@ test('coletar: segunda passada sem mudança não escreve nada; falha grava estad
   const r4 = await coletar({ raiz, grupo: 'todas', http: quebrado, agora: '2026-11-01T18:00:00Z', fontes: [usState] });
   assert.deepEqual(r4.arquivos, []);
   const r5 = await coletar({ raiz, grupo: 'todas', http, agora: '2026-11-02T00:00:00Z', fontes: [usState] });
-  assert.deepEqual(r5.arquivos, ['estado/us_state.json']);
+  assert.deepEqual(r5.arquivos, ['estado/us_state.json', 'batimento/todas.json']);
 });
 
 test('privacidade: nada da viagem no repositório público', () => {

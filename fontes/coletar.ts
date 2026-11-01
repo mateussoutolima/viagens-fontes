@@ -71,6 +71,12 @@ export async function coletar(opts: { raiz: string; grupo: string; http: HttpPor
       resumo.fontes.push({ id: f.id, estado: 'falha', chaves: 0, mudancas: 0, erro });
     }
   }
+  // Batimento diário: prova de vida da coleta, gravado só quando o dia muda (no máximo 1 commit por grupo por dia).
+  const relBat = `batimento/${seguro(grupo)}.json`;
+  const bat = ler<{ data: string }>(raiz, relBat);
+  if (bat?.data !== agora.slice(0, 10))
+    escrever(raiz, relBat, { grupo, data: agora.slice(0, 10), primeira_execucao_do_dia: agora,
+      fontes: Object.fromEntries(resumo.fontes.map(f => [f.id, f.estado])) }, resumo.arquivos);
   return resumo;
 }
 
