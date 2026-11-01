@@ -5,7 +5,9 @@
     "pais": "CN",
     "url": "https://en.nia.gov.cn/n147418/n147463/c183412/content.html",
     "descricao": "NIA (China): política de trânsito sem visto de 24 h e 240 h",
-    "seletor": { "bloco": "zoom" }
+    "seletor": {
+      "bloco": "zoom"
+    }
   },
   {
     "id": "cn_consulado_la_avisos",
@@ -13,7 +15,13 @@
     "pais": "CN",
     "url": "https://losangeles.china-consulate.gov.cn/eng/visa/Notice/",
     "descricao": "Consulado da China em Los Angeles: lista de avisos de visto (prorrogação da isenção)",
-    "seletor": { "remover": ["view_dedault"], "de": "Consular Service > Notice", "ate": "推荐给朋友" }
+    "seletor": {
+      "remover": [
+        "view_dedault"
+      ],
+      "de": "Consular Service > Notice",
+      "ate": "推荐给朋友"
+    }
   },
   {
     "id": "ph_etravel_faq",
@@ -21,6 +29,21 @@
     "pais": "PH",
     "url": "https://www.etravel.gov.ph/frequently-asked-questions",
     "descricao": "eTravel (Filipinas): perguntas frequentes (prazo de 72 h, gratuidade, quem precisa)",
-    "seletor": { "de": "Frequently Asked Questions", "ate": "Home Data Policy FAQs Contact Sign In" }
+    "seletor": {
+      "de": "Frequently Asked Questions",
+      "ate": "Home Data Policy FAQs Contact Sign In"
+    }
+  },
+  {
+    "id": "ph_pagasa_boletim",
+    "fonte": "ph_pagasa",
+    "pais": "PH",
+    "url": "https://www.pagasa.dost.gov.ph/tropical-cyclone/severe-weather-bulletin",
+    "descricao": "PAGASA (Filipinas): boletim de ciclone tropical em vigor (só detecta boletim novo; o app mostra o link)",
+    "seletor": {
+      "bloco": "article-content"
+    },
+    "grupo": "perigos",
+    "minimo": 40
   }
 ]

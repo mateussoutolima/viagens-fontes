@@ -7,7 +7,7 @@ import { jsonCanonico, normalizarHtml } from '../fontes/nucleo/normalizar.ts';
 import type { Snapshot } from '../fontes/nucleo/tipos.ts';
 import { coletar } from '../fontes/coletar.ts';
 import { caGac, ukFcdo, usState } from '../fontes/adaptadores/governos.ts';
-import { gdacs } from '../fontes/adaptadores/outros.ts';
+import { gdacs, usgs } from '../fontes/adaptadores/outros.ts';
 
 const FX = 'fixtures/2026-10-31/';
 
@@ -32,10 +32,11 @@ test('V1: JSON canônico ordena chaves', () => {
 
 test('V1: páginas reais com o seletor do catálogo', () => {
   const pag = JSON.parse(fs.readFileSync('catalogo/paginas.json', 'utf8'));
-  const arq: Record<string, string> = { cn_nia_240h: 'nia.html', cn_consulado_la_avisos: 'la.html', ph_etravel_faq: 'etravel.html' };
+  const arq: Record<string, string> = { cn_nia_240h: 'nia.html', cn_consulado_la_avisos: 'la.html', ph_etravel_faq: 'etravel.html', ph_pagasa_boletim: 'pagasa.html' };
+  const minimo: Record<string, number> = { ph_pagasa_boletim: 40 };
   for (const p of pag) {
     const t = normalizarHtml(fs.readFileSync(FX + arq[p.id], 'utf8'), p.seletor);
-    assert.ok(t.length > 1000, p.id);
+    assert.ok(t.length > (minimo[p.id] ?? 1000), p.id);
   }
 });
 
@@ -99,6 +100,14 @@ test('T17 (coleta): Canadá e FCDO pelos fixtures', async () => {
 test('GDACS: só eventos dentro da caixa Ásia-Pacífico', async () => {
   const g = await gdacs.coletar(httpFixture({ geteventlist: 'gdacs.json' }), '2026-10-31T00:00:00Z');
   for (const e of g) assert.ok((e.campos.lon as number) >= 60);
+});
+
+test('USGS: PAGER vira nível; país sai do fim do lugar', async () => {
+  const s = await usgs.coletar(httpFixture({ 'earthquake.usgs.gov': 'usgs.json' }), '2025-10-16T00:00:00Z');
+  const calape = s.find(x => String(x.campos.nome).includes('Calape'))!;
+  assert.equal(calape.campos.alerta, 'Orange');
+  assert.equal(calape.campos.paises, 'Philippines');
+  assert.equal(calape.campos.de, '2025-09-30');
 });
 
 test('coletar: segunda passada sem mudança não escreve nada; falha grava estado uma vez', async () => {

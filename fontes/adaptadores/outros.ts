@@ -43,6 +43,35 @@ export const gdacs: Fonte = {
   },
 };
 
+/** Sismos do USGS (M ≥ 5,5 na caixa Ásia-Pacífico, últimos 10 dias). O PAGER dá o nível de impacto (green/yellow/orange/red). */
+export const usgs: Fonte = {
+  id: 'usgs', nome: 'USGS (sismos)', licenca: 'USGS: domínio público', grupo: 'perigos',
+  async coletar(http, agora) {
+    const url = 'https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&minmagnitude=5.5'
+      + `&minlatitude=${CAIXA.latMin}&maxlatitude=${CAIXA.latMax}&minlongitude=${CAIXA.lonMin}&maxlongitude=${CAIXA.lonMax}`
+      + `&starttime=${somarDias(agora, -10)}&endtime=${somarDias(agora, 1)}`;
+    const d = JSON.parse(await obter(http, url));
+    const PAGER: Record<string, string> = { green: 'Green', yellow: 'Yellow', orange: 'Orange', red: 'Red' };
+    return (d.features ?? []).map((f: any): Bruto => {
+      const p = f.properties ?? {};
+      const [lon, lat] = f.geometry?.coordinates ?? [];
+      const dia = new Date(p.time).toISOString().slice(0, 10);
+      const lugar = String(p.place ?? '');
+      return {
+        fonte: 'usgs', chave: String(f.id),
+        url: p.url ?? 'https://earthquake.usgs.gov',
+        campos: {
+          tipo: 'EQ', nome: `Sismo M${p.mag} ${lugar}`.trim(), alerta: PAGER[p.alert] ?? null, magnitude: p.mag ?? null,
+          paises: lugar.includes(', ') ? lugar.slice(lugar.lastIndexOf(', ') + 2) : lugar, de: dia, ate: dia,
+          lon: Math.round(lon * 10) / 10, lat: Math.round(lat * 10) / 10,
+        },
+        texto: '',
+        coletado_em: agora,
+      };
+    });
+  },
+};
+
 export const fxFrankfurter: Fonte = {
   id: 'fx_frankfurter', nome: 'Frankfurter (taxas de referência do BCE)', licenca: 'dados do BCE, uso livre', grupo: 'diaria',
   async coletar(http, agora) {
@@ -62,15 +91,19 @@ export interface PaginaVigiada {
   url: string;
   descricao: string;
   seletor: Seletor;
+  /** Grupo do workflow (padrão: entrada, diário). */
+  grupo?: 'entrada' | 'perigos';
+  /** Tamanho mínimo do texto normalizado (padrão 200): abaixo disso o seletor provavelmente quebrou. */
+  minimo?: number;
 }
 
 /** Uma Fonte por página: uma página quebrada não derruba as outras. */
 export function fontesDePaginas(paginas: PaginaVigiada[]): Fonte[] {
   return paginas.map(p => ({
-    id: p.id, nome: p.descricao, licenca: 'link e trecho citado, sem republicação', grupo: 'entrada' as const,
+    id: p.id, nome: p.descricao, licenca: 'link e trecho citado, sem republicação', grupo: p.grupo ?? 'entrada',
     async coletar(http: HttpPort, agora: string) {
       const texto = normalizarHtml(await obter(http, p.url), p.seletor);
-      if (texto.length < 200) throw new Error(`${p.id}: texto curto demais (${texto.length}); seletor quebrado?`);
+      if (texto.length < (p.minimo ?? 200)) throw new Error(`${p.id}: texto curto demais (${texto.length}); seletor quebrado?`);
       return [{ fonte: p.fonte, chave: p.id, pais: p.pais, url: p.url, campos: {}, texto, coletado_em: agora }];
     },
   }));

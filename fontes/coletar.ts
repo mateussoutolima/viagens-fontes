@@ -8,7 +8,7 @@ import { hashConteudo } from './nucleo/hash.ts';
 import { jsonCanonico } from './nucleo/normalizar.ts';
 import type { Fonte, HttpPort, MudancaBruta, Snapshot } from './nucleo/tipos.ts';
 import { caGac, ukFcdo, usState } from './adaptadores/governos.ts';
-import { fontesDePaginas, fxFrankfurter, gdacs, type PaginaVigiada } from './adaptadores/outros.ts';
+import { fontesDePaginas, fxFrankfurter, gdacs, usgs, type PaginaVigiada } from './adaptadores/outros.ts';
 
 export interface EstadoFonte {
   fonte: string;
@@ -26,7 +26,7 @@ export interface Resumo {
 
 export function todasAsFontes(raiz: string): Fonte[] {
   const paginas: PaginaVigiada[] = JSON.parse(fs.readFileSync(path.join(raiz, 'catalogo/paginas.json'), 'utf8'));
-  return [usState, ukFcdo, caGac, gdacs, fxFrankfurter, ...fontesDePaginas(paginas)];
+  return [usState, ukFcdo, caGac, gdacs, usgs, fxFrankfurter, ...fontesDePaginas(paginas)];
 }
 
 const seguro = (s: string) => s.replace(/[^A-Za-z0-9_.-]/g, '_');
