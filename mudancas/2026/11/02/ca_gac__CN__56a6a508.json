@@ -1,0 +1,17 @@
+{
+  "fonte": "ca_gac",
+  "chave": "CN",
+  "pais": "CN",
+  "url": "https://travel.gc.ca/destinations/china",
+  "tipo": "estrutural",
+  "campos": {
+    "atualizado_em": [
+      "2026-10-26",
+      "2026-11-02"
+    ]
+  },
+  "trechos": [],
+  "hash_antes": "fd50dec9e4b7cf0b86bee2fc604070db143953da0026527bb02e0a6f8d86121a",
+  "hash_depois": "56a6a50830f0ef52a13c81a035f84b40dcd478a7af6acfbd0f847683b0f766fe",
+  "coletado_em": "2026-11-02T15:50:35Z"
+}
