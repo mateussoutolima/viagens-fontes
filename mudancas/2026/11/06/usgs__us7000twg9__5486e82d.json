@@ -1,0 +1,24 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000twg9",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twg9",
+  "tipo": "estrutural",
+  "campos": {
+    "lat": [
+      34.9,
+      35
+    ],
+    "lon": [
+      142.2,
+      142.1
+    ],
+    "nome": [
+      "Sismo M6.1 156 km SE of Hasaki, Japan",
+      "Sismo M6.1 144 km SE of Hasaki, Japan"
+    ]
+  },
+  "trechos": [],
+  "hash_antes": "c7fc43b9cdb995f02c0c5ced23db7bd45f1c5d78d0ed800a04bf84412b240432",
+  "hash_depois": "5486e82dc3e64438d8af0c055418271768a82b494a22581f6245a194e4ce8eec",
+  "coletado_em": "2026-11-06T18:19:10Z"
+}
