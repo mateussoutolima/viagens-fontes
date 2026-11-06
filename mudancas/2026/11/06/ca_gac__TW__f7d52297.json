@@ -1,0 +1,17 @@
+{
+  "fonte": "ca_gac",
+  "chave": "TW",
+  "pais": "TW",
+  "url": "https://travel.gc.ca/destinations/taiwan",
+  "tipo": "estrutural",
+  "campos": {
+    "atualizado_em": [
+      "2026-10-26",
+      "2026-11-06"
+    ]
+  },
+  "trechos": [],
+  "hash_antes": "91cc521cbcede67274065936d49211b22bc790a87b656c555a8a5788d8f919ce",
+  "hash_depois": "f7d522973f2cc6efec98af8f09af3ca847421cd421aeec4621b54917e1d111cc",
+  "coletado_em": "2026-11-06T19:24:51Z"
+}
