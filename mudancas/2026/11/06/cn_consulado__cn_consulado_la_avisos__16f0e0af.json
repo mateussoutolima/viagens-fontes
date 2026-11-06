@@ -1,0 +1,21 @@
+{
+  "fonte": "cn_consulado",
+  "chave": "cn_consulado_la_avisos",
+  "pais": "CN",
+  "url": "https://losangeles.china-consulate.gov.cn/eng/visa/Notice/",
+  "tipo": "textual",
+  "campos": {},
+  "trechos": [
+    {
+      "antes": "(2026-09-17)\n· Visa Office Close on October 1-5 and 12,2026\n(2026-09-15)\n· Notice on Extension of Visa-Fee Reduction",
+      "depois": "(2026-09-17)\n· Visa Office Close on November 11,2026\n(2026-11-05)\n· Notice on Extension of Visa-Fee Reduction"
+    },
+    {
+      "antes": "Bulletin Board\nVisa Office Close on October 1-5 and 12,2026\nLinks",
+      "depois": "Bulletin Board\nVisa Office Close on November 11,2026\nLinks"
+    }
+  ],
+  "hash_antes": "ee2dc27d3ad60791df83e450dd9743da3f75e0fba9139241117725c5d7194d90",
+  "hash_depois": "16f0e0af559158a97cd67cfeb00cfb4ad3e39a92b46665cea81ce1a7dc336349",
+  "coletado_em": "2026-11-06T16:55:28Z"
+}
