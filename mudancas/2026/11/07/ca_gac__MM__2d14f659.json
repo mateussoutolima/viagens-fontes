@@ -1,0 +1,22 @@
+{
+  "fonte": "ca_gac",
+  "chave": "MM",
+  "pais": "MM",
+  "url": "https://travel.gc.ca/destinations/myanmar",
+  "tipo": "estrutural",
+  "campos": {
+    "atualizado_em": [
+      "2026-10-15",
+      "2026-11-06"
+    ]
+  },
+  "trechos": [
+    {
+      "antes": "Avoid all travel\nNatural disasters and climate section – added information on El Niño",
+      "depois": "Avoid all travel\nLaws and culture section – added information on cellphone registration; Natural disasters and climate section – removed information on March 2025 earthquake"
+    }
+  ],
+  "hash_antes": "22991a8930c2d38d0eea9e5f75b25ad106acc5c703654b2ceed4d5f5129adde3",
+  "hash_depois": "2d14f6590308758b58b26e9895d092001d31de45a9cf076973a13d29c08ef7d8",
+  "coletado_em": "2026-11-07T05:57:47Z"
+}
