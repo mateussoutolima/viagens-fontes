@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000twrq",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrq",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M5.5 74 km NE of Hasaki, Japan",
+    "alerta": "Green",
+    "magnitude": 5.5,
+    "paises": "Japan",
+    "de": "2026-11-07",
+    "ate": "2026-11-07",
+    "lon": 141.4,
+    "lat": 36.2
+  },
+  "texto": "",
+  "coletado_em": "2026-11-07T16:47:21Z",
+  "hash": "5da1d86559f09c888f48bd12f5298b7e48ac5f6cd9e7cf880c5223296652b988"
+}

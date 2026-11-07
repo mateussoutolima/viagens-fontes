@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000twt0",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M5.5 10 km NW of Hamakita, Japan",
+    "alerta": "Green",
+    "magnitude": 5.5,
+    "paises": "Japan",
+    "de": "2026-11-07",
+    "ate": "2026-11-07",
+    "lon": 137.7,
+    "lat": 34.9
+  },
+  "texto": "",
+  "coletado_em": "2026-11-07T16:47:21Z",
+  "hash": "8bc52ccfc07cc627796bbc2e9004bd924aa95c5cc4fd47e0843429806c4418b4"
+}
