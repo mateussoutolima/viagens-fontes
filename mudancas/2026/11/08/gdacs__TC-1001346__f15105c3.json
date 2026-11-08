@@ -1,0 +1,16 @@
+{
+  "fonte": "gdacs",
+  "chave": "TC-1001346",
+  "url": "https://www.gdacs.org/report.aspx?eventid=1001346&episodeid=10&eventtype=TC",
+  "tipo": "estrutural",
+  "campos": {
+    "atual": [
+      true,
+      false
+    ]
+  },
+  "trechos": [],
+  "hash_antes": "bb529ce5f6c51079ecfe242e10f17e31c1a62b514e6fd54fd15c4f26f6703fbb",
+  "hash_depois": "f15105c3168770f7327fa1bc88f4289059fac8ec179ca87741a35edb8c64047c",
+  "coletado_em": "2026-11-08T00:22:03Z"
+}
