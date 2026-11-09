@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000tx1f",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx1f",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M5.7 106 km ENE of Hasaki, Japan",
+    "alerta": "Green",
+    "magnitude": 5.7,
+    "paises": "Japan",
+    "de": "2026-11-09",
+    "ate": "2026-11-09",
+    "lon": 141.8,
+    "lat": 36.2
+  },
+  "texto": "",
+  "coletado_em": "2026-11-09T11:15:29Z",
+  "hash": "eadcb2282aad53e0f853f9bcba2bab4812567b27f71aaac23d155bc5eda58e88"
+}
