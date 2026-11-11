@@ -4,16 +4,16 @@
   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
   "campos": {
     "tipo": "EQ",
-    "nome": "Sismo M5.5 10 km NW of Hamakita, Japan",
+    "nome": "Sismo M5.5 8 km E of Shinshiro, Japan",
     "alerta": "Green",
     "magnitude": 5.5,
     "paises": "Japan",
     "de": "2026-11-07",
     "ate": "2026-11-07",
-    "lon": 137.7,
+    "lon": 137.6,
     "lat": 34.9
   },
   "texto": "",
-  "coletado_em": "2026-11-07T16:47:21Z",
-  "hash": "8bc52ccfc07cc627796bbc2e9004bd924aa95c5cc4fd47e0843429806c4418b4"
+  "coletado_em": "2026-11-11T22:56:36Z",
+  "hash": "672ace14c5593bdae972827d364a6a1e758fe05de682be5720f01cf1a97161d8"
 }
