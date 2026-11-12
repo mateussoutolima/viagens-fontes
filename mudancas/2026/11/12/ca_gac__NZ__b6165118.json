@@ -1,0 +1,17 @@
+{
+  "fonte": "ca_gac",
+  "chave": "NZ",
+  "pais": "NZ",
+  "url": "https://travel.gc.ca/destinations/new-zealand",
+  "tipo": "estrutural",
+  "campos": {
+    "atualizado_em": [
+      "2026-10-15",
+      "2026-11-12"
+    ]
+  },
+  "trechos": [],
+  "hash_antes": "adecb12a0d23637b2bda227963b8fb92ee6fcfb2469a2198306749643d9c6bd5",
+  "hash_depois": "b616511892bbce3dd8345f8756156e89d91113984b14fb2a211e7238ed3df9aa",
+  "coletado_em": "2026-11-12T19:53:17Z"
+}
