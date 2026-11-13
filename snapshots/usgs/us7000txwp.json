@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000txwp",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txwp",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M5.8 148 km NW of Kavieng, Papua New Guinea",
+    "alerta": "Green",
+    "magnitude": 5.8,
+    "paises": "Papua New Guinea",
+    "de": "2026-11-12",
+    "ate": "2026-11-12",
+    "lon": 149.9,
+    "lat": -1.6
+  },
+  "texto": "",
+  "coletado_em": "2026-11-13T01:24:45Z",
+  "hash": "dd2eadd2e5915331014ab02df50a9b94fc5ed0dd20ea64a25d64cf084118f058"
+}

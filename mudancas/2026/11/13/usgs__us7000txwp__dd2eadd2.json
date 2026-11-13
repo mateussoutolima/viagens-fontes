@@ -1,0 +1,11 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000txwp",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txwp",
+  "tipo": "nova",
+  "campos": {},
+  "trechos": [],
+  "hash_antes": null,
+  "hash_depois": "dd2eadd2e5915331014ab02df50a9b94fc5ed0dd20ea64a25d64cf084118f058",
+  "coletado_em": "2026-11-13T01:24:45Z"
+}
