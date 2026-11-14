@@ -1,5 +1,6 @@
 {
   "fonte": "gdacs",
-  "estado": "ok",
-  "desde": "2026-11-02T20:10:54Z"
+  "estado": "falha",
+  "desde": "2026-11-14T03:00:11Z",
+  "erro": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH?eventlist=TC;EQ;FL&alertlevel=Orange;Red&fromDate=2026-11-04&toDate=2026-11-15: HTTP 400"
 }
