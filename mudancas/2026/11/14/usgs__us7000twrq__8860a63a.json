@@ -1,0 +1,20 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000twrq",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrq",
+  "tipo": "estrutural",
+  "campos": {
+    "lon": [
+      141.4,
+      141.5
+    ],
+    "nome": [
+      "Sismo M5.5 74 km NE of Hasaki, Japan",
+      "Sismo M5.5 77 km NE of Hasaki, Japan"
+    ]
+  },
+  "trechos": [],
+  "hash_antes": "5da1d86559f09c888f48bd12f5298b7e48ac5f6cd9e7cf880c5223296652b988",
+  "hash_depois": "8860a63af9451e46dbe4f38389f2c66cdbcd4485f5e8c9920e591e99d16afa2c",
+  "coletado_em": "2026-11-14T10:11:55Z"
+}
