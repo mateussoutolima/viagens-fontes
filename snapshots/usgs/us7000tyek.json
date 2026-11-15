@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000tyek",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyek",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M5.5 9 km E of Union, Philippines",
+    "alerta": "Green",
+    "magnitude": 5.5,
+    "paises": "Philippines",
+    "de": "2026-11-15",
+    "ate": "2026-11-15",
+    "lon": 126.2,
+    "lat": 9.8
+  },
+  "texto": "",
+  "coletado_em": "2026-11-15T15:49:16Z",
+  "hash": "69dabf5fad8749b71a8ee04161433c94fe178afc6f4dcdb822359b40361c0695"
+}

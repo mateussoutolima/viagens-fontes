@@ -1,0 +1,11 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000tyek",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyek",
+  "tipo": "nova",
+  "campos": {},
+  "trechos": [],
+  "hash_antes": null,
+  "hash_depois": "69dabf5fad8749b71a8ee04161433c94fe178afc6f4dcdb822359b40361c0695",
+  "coletado_em": "2026-11-15T15:49:16Z"
+}
