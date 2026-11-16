@@ -1,0 +1,36 @@
+{
+  "fonte": "fx_frankfurter",
+  "chave": "BRL",
+  "url": "https://api.frankfurter.dev/v1/latest?base=BRL&symbols=USD,CNY,JPY,PHP,EUR",
+  "tipo": "estrutural",
+  "campos": {
+    "CNY": [
+      "1.178",
+      "1.1685"
+    ],
+    "EUR": [
+      "0.15976",
+      "0.15914"
+    ],
+    "JPY": [
+      "28.25",
+      "27.974"
+    ],
+    "PHP": [
+      "11.267",
+      "11.2096"
+    ],
+    "USD": [
+      "0.17656",
+      "0.17528"
+    ],
+    "data": [
+      "2026-11-13",
+      "2026-11-16"
+    ]
+  },
+  "trechos": [],
+  "hash_antes": "ef25dde65af0ef52ea530693b6a121fba7227c616e043e1ae9cee619e8d52455",
+  "hash_depois": "fe87326921a3c20970cba1ffc9cc0d7c16dab313ba33cbede942789ddb5c6315",
+  "coletado_em": "2026-11-16T20:17:38Z"
+}
