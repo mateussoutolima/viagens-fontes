@@ -1,0 +1,17 @@
+{
+  "fonte": "uk_fcdo",
+  "chave": "TH",
+  "pais": "TH",
+  "url": "https://www.gov.uk/foreign-travel-advice/thailand",
+  "tipo": "textual",
+  "campos": {},
+  "trechos": [
+    {
+      "antes": "Find out more about why FCDO advises against travel .\nSevere Flooding\nSevere flooding is affecting parts of Thailand following heavy rainfall in a number of provinces, including Bangkok, Nonthaburi, Pathum Thani and Samut Prakan. All 50 districts of Bangkok have been declared disaster-affected areas. Travel disruption, including road closures and flooding of low-lying areas, is possible.\nThe Thai government has declared special public holidays on 28 and 29 September in Bangkok, Nonthaburi, Pathum Thani and Samut Prakan. Many government offices and services may be closed or operating with reduced capacity. Follow the advice of local authorities if you plan to travel.\nGlobal travel impacts due to escalation in the Middle East",
+      "depois": "Find out more about why FCDO advises against travel .\nGlobal travel impacts due to escalation in the Middle East"
+    }
+  ],
+  "hash_antes": "d719ba135ad17e428f20b0719293698767d8a8a39d9f35b164506eacd8b5f804",
+  "hash_depois": "e72d33086bbf997f83a15005b3bf1abb7a1d3ff97431d842f1cb3e2c5d15ed63",
+  "coletado_em": "2026-11-17T20:55:22Z"
+}
