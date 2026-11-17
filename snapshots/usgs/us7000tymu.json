@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000tymu",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymu",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M6.6 148 km WSW of Tual, Indonesia",
+    "alerta": "Green",
+    "magnitude": 6.6,
+    "paises": "Indonesia",
+    "de": "2026-11-16",
+    "ate": "2026-11-16",
+    "lon": 131.5,
+    "lat": -6.1
+  },
+  "texto": "",
+  "coletado_em": "2026-11-17T01:59:59Z",
+  "hash": "1842c50208f77287d067ba6664440d38e5d2cedf5a429296361034217d0c2199"
+}
