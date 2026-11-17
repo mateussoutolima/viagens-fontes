@@ -1,0 +1,16 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000twt0",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twt0",
+  "tipo": "estrutural",
+  "campos": {
+    "nome": [
+      "Sismo M5.5 8 km E of Shinshiro, Japan",
+      "Sismo M5.5 9 km E of Shinshiro, Japan"
+    ]
+  },
+  "trechos": [],
+  "hash_antes": "672ace14c5593bdae972827d364a6a1e758fe05de682be5720f01cf1a97161d8",
+  "hash_depois": "7e52af0ea1823ac5941777079afad323f69a834f5b87d706ab33a1804fd1a47e",
+  "coletado_em": "2026-11-17T19:44:18Z"
+}
