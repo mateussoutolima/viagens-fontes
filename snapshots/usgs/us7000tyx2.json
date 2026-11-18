@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000tyx2",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyx2",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M5.8 99 km ESE of Madang, Papua New Guinea",
+    "alerta": "Green",
+    "magnitude": 5.8,
+    "paises": "Papua New Guinea",
+    "de": "2026-11-18",
+    "ate": "2026-11-18",
+    "lon": 146.5,
+    "lat": -5.7
+  },
+  "texto": "",
+  "coletado_em": "2026-11-18T10:36:54Z",
+  "hash": "360c72b3e8c5935d0d8440c4ace496cf5cec0479f50c3e50d5e84b8808f66717"
+}

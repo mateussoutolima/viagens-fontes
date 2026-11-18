@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000tywi",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tywi",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M5.8 150 km SW of Merizo Village, Guam",
+    "alerta": "Green",
+    "magnitude": 5.8,
+    "paises": "Guam",
+    "de": "2026-11-18",
+    "ate": "2026-11-18",
+    "lon": 143.9,
+    "lat": 12.1
+  },
+  "texto": "",
+  "coletado_em": "2026-11-18T10:36:54Z",
+  "hash": "75d5a5d258cebb7e4e5212831a73830fbd29fd26f6a78449ab77e58f9015241c"
+}

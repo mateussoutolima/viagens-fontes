@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000tyxi",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyxi",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M5.8 40 km N of Ruteng, Indonesia",
+    "alerta": "Green",
+    "magnitude": 5.8,
+    "paises": "Indonesia",
+    "de": "2026-11-18",
+    "ate": "2026-11-18",
+    "lon": 120.5,
+    "lat": -8.3
+  },
+  "texto": "",
+  "coletado_em": "2026-11-18T10:36:54Z",
+  "hash": "f5c3be873fbfc452260ba8334d367b7bbdb538b70e1b4c86dd7b5bdda205a5ce"
+}

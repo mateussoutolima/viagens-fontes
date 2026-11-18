@@ -1,0 +1,11 @@
+{
+  "fonte": "usgs",
+  "chave": "us7000tyx2",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyx2",
+  "tipo": "nova",
+  "campos": {},
+  "trechos": [],
+  "hash_antes": null,
+  "hash_depois": "360c72b3e8c5935d0d8440c4ace496cf5cec0479f50c3e50d5e84b8808f66717",
+  "coletado_em": "2026-11-18T10:36:54Z"
+}
