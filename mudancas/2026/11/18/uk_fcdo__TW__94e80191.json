@@ -1,0 +1,26 @@
+{
+  "fonte": "uk_fcdo",
+  "chave": "TW",
+  "pais": "TW",
+  "url": "https://www.gov.uk/foreign-travel-advice/taiwan",
+  "tipo": "estrutural",
+  "campos": {
+    "atualizado_em": [
+      "2026-08-28",
+      "2026-11-18"
+    ],
+    "mudanca": [
+      "Updated information of the health risks you’ll face in Taiwan (‘Health’ page). ",
+      "Updated information about illegal drug offences and penalties (‘Warnings and insurance’ and ‘Safety and security’ pages). "
+    ]
+  },
+  "trechos": [
+    {
+      "antes": "The UK does not recognise Taiwan as a state and has no diplomatic relations with Taiwan, so limited support is available to British nationals. Please refer to the British Office in Taipei for further information.\nTyphoon season warning\nTyphoons can affect Taiwan in June, but the most active period is between July and September. Typhoon frequency gradually decreases in October. If you are planning to visit Taiwan during typhoon season, it is important to stay informed and plan ahead:\nmonitor official weather forecast: check the website of the Taiwan Central Weather Administration for updated typhoon news\nbe flexible with your itinerary: flights, trains, buses and other transportation services may be delayed or cancelled during severe weather\ncheck your travel arrangements with your travel provider\nfollow the guidance of the Taiwanese authorities\nconditions may be dangerous for swimming, water sports and other activities in coastal waters around Taiwan during this period\nInformation and advice on how you can prepare for a range of disasters and emergency situations in Taiwan can be found in their Public Safety Guide or “Little Orange Book” .\nBefore you travel",
+      "depois": "The UK does not recognise Taiwan as a state and has no diplomatic relations with Taiwan, so limited support is available to British nationals. Please refer to the British Office in Taipei for further information.\nIllegal drug offences\nPossession, trafficking and manufacture of illegal drugs are serious offences in Taiwan. This applies to all illegal drugs, including cannabis and ketamine. British nationals have been arrested for carrying these substances when entering Taiwan and while transiting through Taiwanese airports.\nSee more information on the Safety and security page.\nBefore you travel"
+    }
+  ],
+  "hash_antes": "c9dbf6446e3257872513943f5bdeac44e336478a51227f580a8b862ed12705b5",
+  "hash_depois": "94e80191777037eb0122220f3166a3c3175c6c5f0b9f3acb7c88eefd469e7378",
+  "coletado_em": "2026-11-18T20:30:13Z"
+}

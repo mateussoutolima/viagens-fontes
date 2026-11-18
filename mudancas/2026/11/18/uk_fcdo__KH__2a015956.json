@@ -1,0 +1,26 @@
+{
+  "fonte": "uk_fcdo",
+  "chave": "KH",
+  "pais": "KH",
+  "url": "https://www.gov.uk/foreign-travel-advice/cambodia",
+  "tipo": "estrutural",
+  "campos": {
+    "atualizado_em": [
+      "2026-03-19",
+      "2026-11-18"
+    ],
+    "mudanca": [
+      "New information about global travel impacts due to escalation in the Middle East (‘Warnings and insurance’ page).",
+      "New information about cannabis and drug offences (‘Warnings and insurance’ page). "
+    ]
+  },
+  "trechos": [
+    {
+      "antes": "Find out more about why FCDO advises against travel .\nGlobal travel impacts due to escalation in the Middle East",
+      "depois": "Find out more about why FCDO advises against travel .\nCannabis and drug offences\nIt is illegal to carry cannabis out of Cambodia. British nationals have been arrested for attempting to take cannabis out of the country, including while transiting through other countries. Many international airports use advanced screening technology and may scan the baggage of transit passengers.\nDrug offences, including the possession, use and trafficking of cannabis, are serious crimes in Cambodia. If you are found carrying cannabis or other illegal drugs, you can be arrested and may face a lengthy prison sentence of up to 30 years. Do not carry bags, packages or items for other people. You are responsible for anything found in your luggage.\nGlobal travel impacts due to escalation in the Middle East"
+    }
+  ],
+  "hash_antes": "93a6d282dce30567f946cd02a77d3b4eecafff42b634d65687d191f9f5d952cd",
+  "hash_depois": "2a0159568eb7984e6a3f117f1707312f44732568dc3e778c4824c5dfe4e48881",
+  "coletado_em": "2026-11-18T20:30:13Z"
+}

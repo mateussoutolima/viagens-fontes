@@ -1,0 +1,22 @@
+{
+  "fonte": "ca_gac",
+  "chave": "VN",
+  "pais": "VN",
+  "url": "https://travel.gc.ca/destinations/vietnam",
+  "tipo": "estrutural",
+  "campos": {
+    "atualizado_em": [
+      "2026-10-28",
+      "2026-11-18"
+    ]
+  },
+  "trechos": [
+    {
+      "antes": "Exercise normal security precautions\nThorough review and update of the entire content",
+      "depois": "Exercise normal security precautions\nEditorial change"
+    }
+  ],
+  "hash_antes": "3f825b7a04774ca03925529aa17290cd93b942e2c897eeecbe2a5a71bcb27c27",
+  "hash_depois": "b3732e275e0aedf17f6321d0011a5bbe1fc9ed64dea775d0407a485bb8f18480",
+  "coletado_em": "2026-11-18T20:30:13Z"
+}

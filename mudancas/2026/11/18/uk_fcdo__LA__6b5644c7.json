@@ -1,0 +1,30 @@
+{
+  "fonte": "uk_fcdo",
+  "chave": "LA",
+  "pais": "LA",
+  "url": "https://www.gov.uk/foreign-travel-advice/laos",
+  "tipo": "estrutural",
+  "campos": {
+    "atualizado_em": [
+      "2026-08-13",
+      "2026-11-18"
+    ],
+    "mudanca": [
+      "Updated information on flooding risks during periods of heavy rain (‘Safety and security’ page).",
+      "New information on the risk of attempting to smuggle drugs out of Laos, and updated information about land borders and crossing with Thailand and Cambodia  ('Warnings and insurance' page). "
+    ]
+  },
+  "trechos": [
+    {
+      "antes": "Find out more about why FCDO advises against travel .\nGlobal travel impacts due to escalation in the Middle East",
+      "depois": "Find out more about why FCDO advises against travel .\nIt is illegal to attempt to smuggle drugs out of Laos\nBritish nationals have been caught attempting to smuggle drugs out of Laos. The airports and border checkpoints have excellent technology and security for detecting illegal items, which may be used to scan the baggage of passengers. If caught you will be arrested and detained.\nGlobal travel impacts due to escalation in the Middle East"
+    },
+    {
+      "antes": "Land borders and crossing with Thailand and Cambodia\nIn July 2025, Thailand and Cambodia fought along parts of the border. The fighting included the use of rocket and artillery fire. Tensions remain and fighting erupted again at various points along the border in December. Land borders and crossings between Thailand and Cambodia continue to be suspended. Some tourist destinations in border areas such as the Khao Phra Wihan/Preah Vihear temple, the Ta Kwai/Ta Krabey temple and the Ta Muen Thom/Tamone Thom temple are closed.\nThere are also unexploded landmines in the border area.",
+      "depois": "Land borders and crossing with Thailand and Cambodia\nIn 2025, Thailand and Cambodia fought along parts of the border. The fighting included the use of rocket and artillery fire. Land borders and crossings between Thailand and Cambodia continue to be suspended. Some tourist destinations in border areas such as the Khao Phra Wihan/Preah Vihear temple, the Ta Kwai/Ta Krabey temple and the Ta Muen Thom/Tamone Thom temple are closed.\nThere are also unexploded landmines in the border area."
+    }
+  ],
+  "hash_antes": "6fc9b451de24594d35878d473c729ceae874637cf5e4ad2e09a22ec4277545ad",
+  "hash_depois": "6b5644c7d1229f5ded049481cb59ae8add4734abd9edf481fbf865f3b435189e",
+  "coletado_em": "2026-11-18T20:30:13Z"
+}

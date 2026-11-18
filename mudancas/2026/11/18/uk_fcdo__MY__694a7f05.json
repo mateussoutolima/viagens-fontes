@@ -1,0 +1,30 @@
+{
+  "fonte": "uk_fcdo",
+  "chave": "MY",
+  "pais": "MY",
+  "url": "https://www.gov.uk/foreign-travel-advice/malaysia",
+  "tipo": "estrutural",
+  "campos": {
+    "atualizado_em": [
+      "2026-03-19",
+      "2026-11-18"
+    ],
+    "mudanca": [
+      "Updated information about global travel impacts due to escalation in the Middle East (‘Warnings and insurance’ page).",
+      "New information about cannabis and drug offences (‘Warnings and insurance’ page). "
+    ]
+  },
+  "trechos": [
+    {
+      "antes": "Find out more about why FCDO advises against travel .\nGlobal travel impacts due to escalation in the Middle East",
+      "depois": "Find out more about why FCDO advises against travel .\nCannabis and drug offences\nIt is illegal to possess, use, traffic, import or export cannabis and other controlled drugs in Malaysia, including while transiting through to other countries. Many international airports use advance screening technology and may scan the baggage of transit passengers.\nMalaysia has some of the world’s strictest drug laws. Severe penalties apply, including long prison sentences of up to 20 years, caning, and the death penalty.\nSee more information on the Safety and security page.\nGlobal travel impacts due to escalation in the Middle East"
+    },
+    {
+      "antes": "be mindful of your permitted length of stay in Malaysia\nBefore you travel",
+      "depois": "be mindful of your permitted length of stay in Malaysia\n$CTA\nBefore you travel"
+    }
+  ],
+  "hash_antes": "6be6f93712f37d483bb35ebd4d4db85685da133a3311a09f01d4495d4fcac0d2",
+  "hash_depois": "694a7f05ecc25e1e50b75e45368e0e9d012eeee901b2875812e12ea54efe8e52",
+  "coletado_em": "2026-11-18T20:30:13Z"
+}
