@@ -1,9 +1,9 @@
 {
   "grupo": "perigos",
-  "data": "2026-11-17",
-  "primeira_execucao_do_dia": "2026-11-17T01:59:59Z",
+  "data": "2026-11-18",
+  "primeira_execucao_do_dia": "2026-11-18T02:18:48Z",
   "fontes": {
-    "gdacs": "falha",
+    "gdacs": "ok",
     "usgs": "ok",
     "ph_pagasa_boletim": "ok"
   }
