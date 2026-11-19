@@ -1,0 +1,17 @@
+{
+  "fonte": "uk_fcdo",
+  "chave": "KH",
+  "pais": "KH",
+  "url": "https://www.gov.uk/foreign-travel-advice/cambodia",
+  "tipo": "textual",
+  "campos": {},
+  "trechos": [
+    {
+      "antes": "Drug offences, including the possession, use and trafficking of cannabis, are serious crimes in Cambodia. If you are found carrying cannabis or other illegal drugs, you can be arrested and may face a lengthy prison sentence of up to 30 years. Do not carry bags, packages or items for other people. You are responsible for anything found in your luggage.\nGlobal travel impacts due to escalation in the Middle East",
+      "depois": "Drug offences, including the possession, use and trafficking of cannabis, are serious crimes in Cambodia. If you are found carrying cannabis or other illegal drugs, you can be arrested and may face a lengthy prison sentence of up to 30 years. Do not carry bags, packages or items for other people. You are responsible for anything found in your luggage.\nSee more information about illegal drugs on the Safety and security page.\nGlobal travel impacts due to escalation in the Middle East"
+    }
+  ],
+  "hash_antes": "2a0159568eb7984e6a3f117f1707312f44732568dc3e778c4824c5dfe4e48881",
+  "hash_depois": "d146256772935b348567710f0e2aa06d0e5db793a806de69e767fb87305e7901",
+  "coletado_em": "2026-11-19T20:36:24Z"
+}

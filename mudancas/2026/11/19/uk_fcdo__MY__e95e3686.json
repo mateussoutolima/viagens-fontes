@@ -1,0 +1,17 @@
+{
+  "fonte": "uk_fcdo",
+  "chave": "MY",
+  "pais": "MY",
+  "url": "https://www.gov.uk/foreign-travel-advice/malaysia",
+  "tipo": "textual",
+  "campos": {},
+  "trechos": [
+    {
+      "antes": "be mindful of your permitted length of stay in Malaysia\n$CTA\nBefore you travel",
+      "depois": "be mindful of your permitted length of stay in Malaysia\nBefore you travel"
+    }
+  ],
+  "hash_antes": "694a7f05ecc25e1e50b75e45368e0e9d012eeee901b2875812e12ea54efe8e52",
+  "hash_depois": "e95e36869676206aa31d14a7addc5103360c2cac04137c2a2a736adaa35743b2",
+  "coletado_em": "2026-11-19T20:36:24Z"
+}

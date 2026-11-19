@@ -1,0 +1,26 @@
+{
+  "fonte": "uk_fcdo",
+  "chave": "LA",
+  "pais": "LA",
+  "url": "https://www.gov.uk/foreign-travel-advice/laos",
+  "tipo": "estrutural",
+  "campos": {
+    "atualizado_em": [
+      "2026-11-18",
+      "2026-11-19"
+    ],
+    "mudanca": [
+      "New information on the risk of attempting to smuggle drugs out of Laos, and updated information about land borders and crossing with Thailand and Cambodia  ('Warnings and insurance' page). ",
+      "Updated information about the Laos legal system and the consequences of illegal drugs in Laos (See ‘Legal system’ and ‘Illegal drugs and the death penalty’ on the ‘Safety and security’ page)."
+    ]
+  },
+  "trechos": [
+    {
+      "antes": "British nationals have been caught attempting to smuggle drugs out of Laos. The airports and border checkpoints have excellent technology and security for detecting illegal items, which may be used to scan the baggage of passengers. If caught you will be arrested and detained.\nGlobal travel impacts due to escalation in the Middle East",
+      "depois": "British nationals have been caught attempting to smuggle drugs out of Laos. The airports and border checkpoints have excellent technology and security for detecting illegal items, which may be used to scan the baggage of passengers. If caught you will be arrested and detained.\nSee more information about illegal drugs on the Safety and security page.\nGlobal travel impacts due to escalation in the Middle East"
+    }
+  ],
+  "hash_antes": "6b5644c7d1229f5ded049481cb59ae8add4734abd9edf481fbf865f3b435189e",
+  "hash_depois": "5e9f22a3b0584a11bd0ac1ab0461bbffc9a5ad3ff893fa1cca001c4e8f333b13",
+  "coletado_em": "2026-11-19T20:36:24Z"
+}
