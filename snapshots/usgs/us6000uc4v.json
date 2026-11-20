@@ -5,7 +5,7 @@
   "campos": {
     "tipo": "EQ",
     "nome": "Sismo M5.6 southeast of the Loyalty Islands",
-    "alerta": null,
+    "alerta": "Green",
     "magnitude": 5.6,
     "paises": "southeast of the Loyalty Islands",
     "de": "2026-11-20",
@@ -14,6 +14,6 @@
     "lat": -24.7
   },
   "texto": "",
-  "coletado_em": "2026-11-20T01:10:00Z",
-  "hash": "fd2f1c7b5bb7b4699d3d078d40c84ecdee30b9aff7552c5ab4cb53a8717e4d05"
+  "coletado_em": "2026-11-20T09:04:19Z",
+  "hash": "ac2db32c3d838430b97b8fb5d2d107bd13b6e058a3db2586fe1607acb2584ab6"
 }
