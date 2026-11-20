@@ -1,0 +1,11 @@
+{
+  "fonte": "usgs",
+  "chave": "us6000uc4v",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc4v",
+  "tipo": "nova",
+  "campos": {},
+  "trechos": [],
+  "hash_antes": null,
+  "hash_depois": "fd2f1c7b5bb7b4699d3d078d40c84ecdee30b9aff7552c5ab4cb53a8717e4d05",
+  "coletado_em": "2026-11-20T01:10:00Z"
+}
