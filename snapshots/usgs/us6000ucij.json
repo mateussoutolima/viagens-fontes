@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us6000ucij",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucij",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M6.8 105 km NE of Lospalos, Timor Leste",
+    "alerta": "Green",
+    "magnitude": 6.8,
+    "paises": "Timor Leste",
+    "de": "2026-11-21",
+    "ate": "2026-11-21",
+    "lon": 127.5,
+    "lat": -7.7
+  },
+  "texto": "",
+  "coletado_em": "2026-11-21T15:14:36Z",
+  "hash": "321411afe5ffd77b1933680a9f8ee6e73a70ea824511c009d59fefc3b494e5e1"
+}

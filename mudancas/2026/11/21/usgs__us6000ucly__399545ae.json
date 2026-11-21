@@ -1,0 +1,11 @@
+{
+  "fonte": "usgs",
+  "chave": "us6000ucly",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucly",
+  "tipo": "nova",
+  "campos": {},
+  "trechos": [],
+  "hash_antes": null,
+  "hash_depois": "399545ae10014a85fb8b8d60c5eed1e0e26673e4ca5e71664d65ab2e5434bb66",
+  "coletado_em": "2026-11-21T15:14:36Z"
+}
