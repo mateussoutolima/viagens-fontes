@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us6000ucvm",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucvm",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M6.5 Vanuatu region",
+    "alerta": "Green",
+    "magnitude": 6.5,
+    "paises": "Vanuatu region",
+    "de": "2026-11-23",
+    "ate": "2026-11-23",
+    "lon": 172.2,
+    "lat": -13.7
+  },
+  "texto": "",
+  "coletado_em": "2026-11-23T03:58:00Z",
+  "hash": "c2002a0b60d3e9702db0a0f60ba40dd2250206ef2738f1a2bb6f5bfe77eb3a9e"
+}
