@@ -1,0 +1,22 @@
+{
+  "fonte": "ca_gac",
+  "chave": "KR",
+  "pais": "KR",
+  "url": "https://travel.gc.ca/destinations/south-korea",
+  "tipo": "estrutural",
+  "campos": {
+    "atualizado_em": [
+      "2026-10-15",
+      "2026-11-24"
+    ]
+  },
+  "trechos": [
+    {
+      "antes": "Exercise normal security precautions\nNatural disasters and climate section – added information on El Niño",
+      "depois": "Exercise normal security precautions\nEntry and exit requirements section – updated information on exemption from the Korea Electronic Travel Authority (K-ETA)"
+    }
+  ],
+  "hash_antes": "adecb12a0d23637b2bda227963b8fb92ee6fcfb2469a2198306749643d9c6bd5",
+  "hash_depois": "4bee66179fc873b6c946ed1f22200b81ed869a329950b37afd70e6e6c870d2bd",
+  "coletado_em": "2026-11-24T22:26:06Z"
+}
