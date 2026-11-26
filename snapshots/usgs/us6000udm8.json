@@ -1,0 +1,19 @@
+{
+  "fonte": "usgs",
+  "chave": "us6000udm8",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udm8",
+  "campos": {
+    "tipo": "EQ",
+    "nome": "Sismo M5.5 204 km S of Taliwang, Indonesia",
+    "alerta": "Green",
+    "magnitude": 5.5,
+    "paises": "Indonesia",
+    "de": "2026-11-26",
+    "ate": "2026-11-26",
+    "lon": 117.2,
+    "lat": -10.6
+  },
+  "texto": "",
+  "coletado_em": "2026-11-26T18:56:02Z",
+  "hash": "91b8568f743f6d36167fd775cdfedbfb74dc1793993ba5e279d77e8f8306dd7a"
+}

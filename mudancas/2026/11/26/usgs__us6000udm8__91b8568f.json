@@ -1,0 +1,11 @@
+{
+  "fonte": "usgs",
+  "chave": "us6000udm8",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udm8",
+  "tipo": "nova",
+  "campos": {},
+  "trechos": [],
+  "hash_antes": null,
+  "hash_depois": "91b8568f743f6d36167fd775cdfedbfb74dc1793993ba5e279d77e8f8306dd7a",
+  "coletado_em": "2026-11-26T18:56:02Z"
+}
