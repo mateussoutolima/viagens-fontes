@@ -1,0 +1,17 @@
+{
+  "fonte": "ca_gac",
+  "chave": "AU",
+  "pais": "AU",
+  "url": "https://travel.gc.ca/destinations/australia",
+  "tipo": "estrutural",
+  "campos": {
+    "atualizado_em": [
+      "2026-11-25",
+      "2026-11-27"
+    ]
+  },
+  "trechos": [],
+  "hash_antes": "dc9a8381ac111a7374145bbd795731fb4783c60eb52cc6d8047f83ece33b4745",
+  "hash_depois": "8582be29745e8e0197ffa0cb487cb92acc9b03f13879bf25d478d14c8dcecd99",
+  "coletado_em": "2026-11-27T21:15:56Z"
+}
