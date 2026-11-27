@@ -3,14 +3,14 @@
   "chave": "BRL",
   "url": "https://api.frankfurter.dev/v1/latest?base=BRL&symbols=USD,CNY,JPY,PHP,EUR",
   "campos": {
-    "data": "2026-11-26",
-    "CNY": "1.1553",
-    "EUR": "0.15805",
-    "JPY": "27.625",
-    "PHP": "11.0531",
-    "USD": "0.17346"
+    "data": "2026-11-27",
+    "CNY": "1.2102",
+    "EUR": "0.16599",
+    "JPY": "29.016",
+    "PHP": "11.5905",
+    "USD": "0.18187"
   },
   "texto": "",
-  "coletado_em": "2026-11-26T19:29:50Z",
-  "hash": "82b718b43a2bae1c9428cf69ff9b5ff85d7ebe4eca61dc898e9c4ed0867ea774"
+  "coletado_em": "2026-11-27T19:25:18Z",
+  "hash": "8ed315018120c2234053f4021b32f01f7aab1da0f40a5509f7c3e8b859e28c39"
 }
